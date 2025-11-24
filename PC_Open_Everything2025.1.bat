@@ -18,8 +18,8 @@ timeout /t 3 /nobreak >nul
 
 powershell -NoProfile -STA -Command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Step Forward and Seize the Day!')"
 
-************************************************************ 
-****** DEV NOTE- DD.20251124.1                        ******
-****** This will only work if the links are correct   ******
-****** for the device that it is actively running on. ******
-************************************************************
+REM ************************************************************ 
+REM ****** DEV NOTE- DD.20251124.1                        ******
+REM ****** This will only work if the links are correct   ******
+REM ****** for the device that it is actively running on. ******
+REM ************************************************************
